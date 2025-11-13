@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/services/ejemplo.service.ts", "src/app/services/ejemplo.service.spec.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class EjemploService {\n\n  suma(a: number, b: number): number {\n    return a + b;\n  }\n\n}\n", "// Imortaciones necesarias para las pruebas unitarias\n\nimport { TestBed } from '@angular/core/testing';  //configurar el entorno de pruebas\nimport { EjemploService } from './ejemplo.service'; //importar el servicio o componente a probar\n\n//Definición del bloque o grupo de pruebas unitarias\ndescribe('EjemploService', () => {\n  let service: EjemploService;\n\n\n  // Configurar el entorno de pruebas e inyectar lo que se necesite \n  beforeEach(() => {\n    TestBed.configureTestingModule({\n      providers: [EjemploService]\n    });\n    service = TestBed.inject(EjemploService);\n  });\n\n\n  it('Debería sumar 2 números correctamente', ()=>{\n    const resultado = service.suma(2,5);\n    expect(resultado).toBe(7);\n  })\n});\n"],
+  "mappings": ";;;;;;;;AAKO,IAAM,iBAAN,MAAMA,gBAAc;EAEzB,KAAK,GAAW,GAAS;AACvB,WAAO,IAAI;EACb;;AAJW,iBAAc,WAAA;EAH1B,WAAW;IACV,YAAY;GACb;GACY,cAAc;;;ACC3B,SAAS,kBAAkB,MAAK;AAC9B,MAAI;AAIJ,aAAW,MAAK;AACd,YAAQ,uBAAuB;MAC7B,WAAW,CAAC,cAAc;KAC3B;AACD,cAAU,QAAQ,OAAO,cAAc;EACzC,CAAC;AAGD,KAAG,+CAAyC,MAAI;AAC9C,UAAM,YAAY,QAAQ,KAAK,GAAE,CAAC;AAClC,WAAO,SAAS,EAAE,KAAK,CAAC;EAC1B,CAAC;AACH,CAAC;",
+  "names": ["EjemploService"]
+}
