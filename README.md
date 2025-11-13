@@ -59,3 +59,8 @@ Este proyecto fue desarrollado como material educativo para estudiantes de BIT +
 
 
 
+## Taller 
+
+![Prueba fallida de ejemplo](./public/imgs/imagen1.1.png)
+![Prueba correcta de ejemplo](./public/imgs/imagen1.1.png)
+![Pruebas correctas del login](./public/imgs/imagen1.3.png)
