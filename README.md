@@ -57,10 +57,9 @@ Este proyecto fue desarrollado como material educativo para estudiantes de BIT +
 - **Autor:** Evelyn Becerra
 - **GitHub:** [Github](https://github.com/evelin-bcr/Modulo4-Actividad-2)
 
-
-
 ## Taller 
 
 ![Prueba fallida de ejemplo](./public/imgs/imagen1.1.png)
 ![Prueba correcta de ejemplo](./public/imgs/imagen1.2.png)
-![Pruebas correctas del login](./public/imgs/imagen1.3.png)
+![Prueba correctas del Login](./public/imgs/imagen1.3.png)
+
